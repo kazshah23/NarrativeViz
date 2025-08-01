@@ -31,7 +31,7 @@ An interactive data visualization exploring global economic trends from 2000-202
 
 ## Live Demo
 
-Visit the live site: [Your GitHub Pages URL will be here]
+Visit the live site: https://kazshah23.github.io/NarrativeViz/
 
 ## Project Structure
 
