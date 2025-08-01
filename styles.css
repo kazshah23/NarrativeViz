@@ -1,0 +1,84 @@
+/* Simple CSS for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+#chart {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    margin-top: 40px;
+}
+
+.navigation button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navigation button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+.controls select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Chart styles */
+.axis {
+    font-size: 12px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.grid line {
+    stroke: lightgray;
+    stroke-opacity: 0.7;
+}
+
+.line {
+    fill: none;
+    stroke-width: 2;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+}
